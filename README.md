@@ -1,2 +1,2 @@
 # Jogos
- Criação de Jogos em Python
+ Criação de Jogos em Python.
