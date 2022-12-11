@@ -13,7 +13,7 @@ print('-=' * 30)
 print('Jogo da Mega Sena'.center(60))
 print('Cada Aposta Custa: R$ 4.50'.center(60))
 print('A Probabilidade de Acerto é de 1 em 50,063,860'.center(60))
-print('Os prêmios vão de R$ 348,732.75 até R$ 306,718,743.71'.center(60))
+print('Os prêmios vão de R$ 348,732.75 até R$ 317,853,788.54'.center(60))
 print('-=' * 30)
 print('Boa Sorte!'.center(60))
 quantidade_jogos = int(input('Digite a quantidade de jogos: '))
@@ -61,7 +61,7 @@ while stop:
             print("Parabéns! Você Ganhou!".center(60))
             print(f"O jogo sorteado foi: {jogo_loteria}\nE você jogou: {lista_jogador[numero]}")
             stop = False
-            premio = uniform(348732.75, 306718743.71)
+            premio = uniform(348732.75, 317853788.54)
     jogo_loteria.clear()
 
 custo_total = (len(lista_loteria)) * valor_da_aposta
